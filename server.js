@@ -22,9 +22,7 @@ app.get("/login",(req,res)=>{
         +"<form>"
         +"<input/>"
         +"<br/>"
-       
         +"<button><>Login</button>"
-       
         +"</form>"
         );
 });
