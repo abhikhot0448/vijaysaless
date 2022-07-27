@@ -15,6 +15,20 @@ app.get("/",(req,res)=>{
         );
 });
 
+app.get("/login",(req,res)=>{
+    res.send(
+        "<h1>Vijay Sales </h1>"
+        +"<hr/>"
+        +"<form>"
+        +"<input/>"
+        +"<br/>"
+       
+        +"<button><>Login</button>"
+       
+        +"</form>"
+        );
+});
+
 app.get("/aboutus",(req,res)=>{
     res.send(
         "<h1>Vijay Sales </h1>"
